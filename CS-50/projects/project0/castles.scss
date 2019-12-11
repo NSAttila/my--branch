@@ -1,0 +1,121 @@
+// Predetermined you can use like an variable
+%rows {
+  position: relative;
+  padding: 10px;
+  border-collapse: collapse;
+  opacity: 0.85;
+}
+%hover_shadow{
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3), 0 15px 20px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+// Styling the images
+.row img {
+  @extend %rows;
+}
+.row img:hover {
+  @extend %hover_shadow;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding: 15px;
+}
+.row1 img {
+  @extend %rows;
+}
+.row1 img:hover {
+  @extend %hover_shadow;
+}
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding: 15px;
+}
+
+
+// Styling the text
+.container {
+  display: flex;
+  position: relative;
+  padding: 10px;
+  margin: 0;
+  text-align: left;
+  font-size: 18px;
+  text-indent: 50px;
+  font-style: oblique;
+  color: #3c2121db;
+  }
+
+
+
+
+
+/*For mobile phones*/
+[class*="col-"]{
+  width: 100%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .col-xs-1 {width: 8.33%;}
+  .col-xs-2 {width: 16.66%;}
+  .col-xs-3 {width: 25%;}
+  .col-xs-4 {width: 33.33%;}
+  .col-xs-5 {width: 41.66%;}
+  .col-xs-6 {width: 50%;}
+  .col-xs-7 {width: 58.33%;}
+  .col-xs-8 {width: 66.66%;}
+  .col-xs-9 {width: 75%;}
+  .col-xs-10 {width: 83.33%;}
+  .col-xs-11 {width: 91.66%;}
+  .col-xs-12 {width: 100%;}
+}
+/*For tablets*/
+@media only screen and (min-width: 600px){
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+/*For desktop*/
+@media only screen and (min-width: 768px){
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+   .col-3 {width: 25%;}
+   .col-4 {width: 33.33%;}
+   .col-5 {width: 41.66%;}
+   .col-6 {width: 50%;}
+   .col-7 {width: 58.33%;}
+   .col-8 {width: 66.66%;}
+   .col-9 {width: 75%;}
+   .col-10 {width: 83.33%;}
+   .col-11 {width: 91.66%;}
+   .col-12 {width: 100%;}
+}
+
+// Navigation bar
+nav {
+  text-align: right;
+  padding: 0px;
+  margin-right: 10px;
+}
+
+html {
+  font-family: cursive, sans-serif;
+}

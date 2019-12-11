@@ -1,0 +1,142 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  padding: 5px;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(pictures/pano1.jpg);
+  background-size: cover;
+}
+
+.main h1 {
+  padding: 100px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #08010e7a;
+  font-size: 60px;
+  font-style: arial, sans-serif;
+}
+
+.main p {
+  text-align: justify;
+  text-indent: 50px;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+  padding: 50px;
+  font-size: 18px;
+  color: #6d7e86;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container .section {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  border-color: #000;
+}
+
+.container .section:nth-child(1) {
+  background: url(pictures/village1.jpg);
+  background-size: cover;
+}
+
+.container .section:nth-child(2) {
+  background: url(pictures/village2.jpg);
+  background-size: cover;
+}
+
+.container .section:nth-child(3) {
+  background: url(pictures/village3.jpg);
+  background-size: cover;
+}
+
+.container .section:nth-child(4) {
+  background: url(pictures/village4.jpg);
+  background-size: cover;
+}
+
+.container .section:nth-child(5) {
+  background: url(pictures/village5.jpg);
+  background-size: cover;
+}
+
+.container .section:nth-child(6) {
+  background: url(pictures/village6.jpg);
+  background-size: cover;
+}
+
+.container .section:nth-child(7) {
+  background: url(pictures/village7.jpg);
+  background-size: cover;
+}
+
+.container .section:nth-child(8) {
+  background: url(pictures/village8.jpg);
+  background-size: cover;
+}
+
+.container .section:nth-child(9) {
+  background: url(pictures/village9.jpg);
+  background-size: cover;
+}
+
+[class*=col-] {
+  float: left;
+  padding: 7px;
+}
+
+.lastpicture img {
+  width: 80%;
+  height: auto;
+  image-orientation: center;
+}
+
+.lastpicture > p {
+  font-stretch: ultra-expanded;
+}
+
+#transfagarasan_text {
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url(sansation_bold.woff);
+  font-weight: lighter;
+}
+
+.flex-container {
+  margin: 15px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15), 2px 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.flex-container > tr {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+nav {
+  text-align: right;
+  padding: 0px;
+  margin-right: 10px;
+}
+
+html {
+  font-family: cursive, sans-serif;
+}
+
+/*# sourceMappingURL=villages.css.map */
