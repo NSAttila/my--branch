@@ -1,0 +1,19 @@
+body
+{
+    background: rgba(82, 0, 25, 0.05);
+}
+
+#navbarSelect
+{
+    /* opacity: 0.2; */
+    padding: 1.2rem;
+    align-items: center;
+    margin: 2rem;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    /* background-color: #fff; */
+}
+ul li a#hoverUp:hover
+{
+    ;
+}
