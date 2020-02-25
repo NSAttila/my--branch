@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato|Nunito+Sans|Open+Sans&display=swap');
+
+
 body
 {
     background: rgba(82, 0, 25, 0.05);
 }
-
-#navbarSelect
+.justify-content-center
+{
+    font-family: 'Open Sans',sans-serif ;
+}
+.justify-content-center, #navbarSelect
 {
     /* opacity: 0.2; */
     padding: 1.2rem;
@@ -11,8 +19,19 @@ body
     margin: 2rem;
     text-transform: uppercase;
     border-radius: 1rem;
+    letter-spacing: 0.9px;
+    font-weight: 700;
+    line-height: 1.8em;
+
     /* background-color: #fff; */
 }
+#nav_with_search
+{
+    margin: 1rem;
+    font-family: 'Lato', sans-serif ;
+
+}
+
 /* ul li a#hoverUp:hover
 {
     grid-template-columns: 22% 22% auto;
@@ -31,9 +50,41 @@ body
     grid-auto-flow: row;
     margin: 10px;
 }
-/* 
-{
+
+/* {
     text-decoration: none;
-    /* text-transform: none; */
+    text-transform: none;
     list-style: none;
-} */
+}  */
+
+.accordion
+{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+#AlbaniaFlag::before {
+	content: url('icons/albania.png');
+}
+#AndorraFlag::before {
+	content: url('icons/andorra.png');
+}
+#ArmeniaFlag::before {
+	content: url('icons/armenia.png');
+}
+#AustriaFlag::before {
+	content: url('icons/austria.png');
+}
+#BelarusFlag::before {
+	content: url('icons/belarus.png');
+}
+#BelgiumFlag::before {
+	content: url('icons/belarus.png');
+}
+.container .row a
+{
+    /* line-height:25px; */
+text-decoration: none;
+color: rgba(23.9, 0, 29.8, 1);
+
+}
