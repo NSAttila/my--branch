@@ -13,7 +13,27 @@ body
     border-radius: 1rem;
     /* background-color: #fff; */
 }
-ul li a#hoverUp:hover
+/* ul li a#hoverUp:hover
 {
-    ;
+    grid-template-columns: 22% 22% auto;
+    grid-template-rows: 22% auto 22%;;
+} */
+.grid_countries
+{
+    display: grid;
+    grid-template-columns: 8px auto 8px;
+    grid-template-rows: 8px auto 12px;
+    grid-gap: 6px;
+    justify-items: center;
+    align-items: start;
+    justify-content: space-evenly;
+    align-content: space-around;
+    grid-auto-flow: row;
+    margin: 10px;
 }
+/* 
+{
+    text-decoration: none;
+    /* text-transform: none; */
+    list-style: none;
+} */
