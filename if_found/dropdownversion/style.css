@@ -1,0 +1,46 @@
+body#bodyPart
+{
+    background-color :rgba(82.7, 79.2, 81.6,0.2);
+    padding-top: 5%;
+}
+
+body div.accordion
+{
+    display: grid;
+    position: relative;
+    padding-top: ;
+
+    background:#fff;
+}
+
+#accordionExample, #navbarSelect
+{
+    margin: 1.5rem;
+}
+#navbarSelect
+{
+    margin: 1rem;
+}
+#accordionExample .card
+{
+    background: rgba(82.7, 79.2, 81.6,0.01);
+    
+}
+#collapseOne 
+{
+    background: #Fff;
+    
+}
+#accordionExample .card h3
+{
+    text-decoration: none;
+    color: #333;
+    text-decoration: none !important;
+    
+}
+
+.btn-link
+
+{
+    text-decoration: none;
+}
