@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-height: 97vh;
+}
+
+/* For the first navbar */
+/* nav
+{
+    display: flex;
+    margin: 1rem;  
+}
+nav div
+{
+    padding: 1rem;
+}
+nav > div:nth-child(3)
+{
+    margin-left: auto;
+}
+@media(max-width:650px) {
+    nav > div h2
+    {
+        font-size: 16px;
+    }
+} */
+
+
+/* For the secound navbar */
+/* .navTwo
+{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.navTwo div:nth-child(3)
+{
+    grid-column: 10;
+} */
+
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 50px 350px 50px;
+}
+header
+{
+    grid-column: span 12;
+}
+aside
+{
+    grid-column: span 2;
+}
+main{
+    grid-column: span 10;
+}
+footer{
+    grid-column: span 12;
+}
+
+header{
+    display: flex;
+}
+header div{}
+header > div:nth-child(3)
+{
+    margin-left: auto;
+}
+aside{margin-top: 50%;}
+main{margin-top: 12.5%;}
+header > div:nth-child(2)
+{
+    margin-left: 4%;
+}
+@media(max-width: 650px) {
+    .container header h3 {
+        font-size: 18px;
+    }
+    .container > aside,main,footer {font-size: 13px;}
+
+
+}
