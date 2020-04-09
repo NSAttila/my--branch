@@ -1,0 +1,16 @@
+html body{
+    width: 100%;
+  height: 100%;
+background: url("http://nicolasrobbio.com/wp-content/uploads/2020/04/Nicolas_Robbio-6@EdouardFraipont.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.vc_container .vc_row{
+        align-items: flex-end;
+        margin-bottom:5px;
+           bottom: 0;
+
+}
